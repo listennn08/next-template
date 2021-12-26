@@ -14,3 +14,23 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  @apply
+    pt-3
+    flex flex-col items-center content-center
+  ;
+}
+
+.btn {
+  @apply
+    capitalize
+    border border-primary
+    text-primary
+    p-2
+    rounded-md
+    focus:(outline-none bg-primary text-white)
+    hover:(bg-primary text-white)
+    transition-colors
+  ;
+}

@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  @apply py-0 px-8;
 }
 
 .main {
